@@ -385,6 +385,12 @@ h6:hover .anchor {
 .toc li ul {
     margin-inline-start: 20px;
 }
+/* I want to hide heading level after 3^rd, it's a hack */
+.toc ul ul ul {
+    background-color: aqua;
+    display: none; 
+}
+
 .toc li a {
     line-height: 1.5em;
     padding: 3px 5px;
